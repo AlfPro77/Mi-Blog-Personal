@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#"> Alf </a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#travel">Viajes</a></li>
+            <li><a href="#peliculas">Películas</a></li>
+            <li><a href="#books">Libros</a></li>
+            <li><a href="#contact">Acerca de mí</a></li>
+          </ul>
+        </div>
+    
+    </nav>
+    <div class="container">
+        <h2 class="page-header" id="travel"> Destinos que te recomiendo visitar </h2>
+        <center> <div class="travel_minediv"> 
+         <img src="https://encancun.com/wp-content/uploads/2018/09/cancun-lugares-turisticos-extremos-basicos-que-debes-visitar-04-1024x767.jpg?x81029">
+         <h4 class="text-capitalize"> <kbd>cancun</kbd> </h4>
+         <hr>
+         <h5 class="text-success text-capitalize"> visite este lugar en 2020 </h5>
+         <p class="text-muted"> Visite varios parques de agua y fui a la playa </p>
+        </div> </center>
+        <br>
+        <br>
+        <center> <div class="travel_minediv"> 
+            <img src="https://cdn.wallpapersafari.com/69/89/WBg2ea.jpg">
+            <h4 class="text-capitalize"> <kbd>alaska</kbd> </h4>
+            <hr>
+            <h5 class="text-success text-capitalize"> visite este lugar en 2018 </h5>
+            <p class="text-muted"> Me fui en un crucero y visite varias ciudades de ahi </p>
+           </div> </center>
+
+           <h2 class="page-header" id="peliculas">Reseña de peliculas</h2>
+           <div class="bg-primary movie_head" data-toggle="collapse" data-target="#mario">
+            <span class="glyphicon glyphicon-film"></span> Mario brothers<i class="fa fa-sort-desc"></i>
+           </div>
+           <div id="mario" class="collapse">
+            <div class="texto_pelicula">
+              <img src="mario.jpg" class="img-responsive img-thunbnail">
+              <h5 class="text-success text-capitalize">Muy bien la representacion de los videojuegos
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-half"></span>
+              </h5>
+              <p> Esta pelicula me gusto porque representa los videojuegos muy bien como mario bros y mario kart</p>
+            </div>
+           </div>
+           <div class="bg-primary movie_head" data-toggle="collapse" data-target="#jurassic_park">
+            <span class="glyphicon glyphicon-film"></span> Jurassic Park<i class="fa fa-sort-desc"></i>
+           </div>
+           <div id="jurassic_park" class="collapse">
+            <div class="texto_pelicula"  ></div> 
+          <img src="jp.jpg" class="img-responsive img-thunbnail">
+          <h5 class="text-success text-capitalize"> Muy buenos graficos
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+          </h5>
+          <p> Esta pelicula me gusto porque me gusta ver como escapan de los dinosaurios </p>
+                  </div>
+    </div>
+    <h2 class="page-header" id="books"> Lista de libros </h2>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+      <img id="DiarioGreg" class="img-responsive" src="https://i1.wp.com/sermadreunaaventura.com/wp-content/uploads/2021/02/71oipiHnSFL.jpg?fit=700%2C1024&ssl=1">
+      <hr>
+      <a href="https://www.amazon.com.mx/Diario-Greg-Renacuajo-Jeff-Kinney/dp/0606356436/ref=sr_1_15?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2U05MI6NN0TCI&keywords=diario+de+greg+1+amazon&qid=1684286109&sprefix=diario+de+greg+1+amazon%2Caps%2C175&sr=8-15" target="_blank"> Diario de Greg </a>
+      
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+      <img class="img-responsive" src="https://pendulo.com/imagenes_grandes/9789876/978987612188.GIF">
+      <hr>
+      <a href="https://www.amazon.com.mx/El-libro-los-chicos-audaces-ebook/dp/B00AHEFXBA" target="_blank">El libro de los chicos audaces </a>
+      
+    </div>
+
+    <section id="contact">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d261.738850614379!2d-134.40999414933938!3d58.30346774051682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1684286781453!5m2!1ses-419!2smx" width="2000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <hr>
+      <img id="avatar"src="AVATAR.png" class="img-responsive img-circle col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+      <h3> Alf :D </h3>
+      <div class="contact_1">
+        <a href="mailto:alfgamer777@gmail.com?Subject=¡Hola Alf!">
+          <h5> <i class=" fa fa-envelope"></i>&nbsp;&nbsp; alfgamer777@gmail.com</h5>
+        </a>
+      </div>
+    </section>
+</body>
